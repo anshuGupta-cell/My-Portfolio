@@ -6,8 +6,13 @@ import { toast } from "react-toastify";
 const Contact = () => {
 
     const submitForm = async (formData) => {
-        const res = sendEmail(formData)
-        toast("Submmitted")
+        const res = await sendEmail(formData)
+        console.log(res);
+        if (res.success === true) {
+            toast(res.message)
+        }else{
+            toast.error(res.message)
+        }
         
     }
 

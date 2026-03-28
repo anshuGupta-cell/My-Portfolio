@@ -1,12 +1,10 @@
 "use server";
-import { toast } from 'react-toastify';
 import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function sendEmail(formData) {
-    console.log(formData);
- 
+
   const name = formData.get('name');
   const email = formData.get('email');
   const message = formData.get('message');
@@ -22,13 +20,13 @@ export async function sendEmail(formData) {
         <p><strong>Message:</strong> ${message}</p>
       `,
     });
-    console.log("done -->", res);
+    console.log(res);
     if (res.error) {
-      console.error("res.error.message", res.error.message);
+       return { success: false, error: res.error, message: "Failed to send email" };
     }
-    
+    return { success: true, message: "Email sent successfully" };
+
   } catch (error) {
-    console.log("failed -->", error);
-    
+    return { success: false, error: error, message: "Failed to send email" };
   }
 }
