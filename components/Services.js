@@ -52,7 +52,7 @@ const Services = () => {
                     className="grid border border-slate-700 rounded-lg p-4 cursor-pointer hover:-translate-y-1 hover:bg-lightHover duration-300 hover:shadow-dark dark:hover:bg-darkHover dark:hover:shadow-light">
                     <Image width={100} height={100} className="w-10 h-10 object-cover rounded" src="/profile pic.png" alt="gddf" />
                     <h3 className="font-bold">
-                        Frontend Development
+                        Backend Development
                     </h3>
                     <p>
                         Focusing on APIs and Databases
