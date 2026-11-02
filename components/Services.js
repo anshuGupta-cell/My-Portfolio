@@ -36,12 +36,12 @@ const Services = () => {
                     whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.3 }}
                     className="grid border border-slate-700 rounded-lg p-4 cursor-pointer hover:-translate-y-1 hover:bg-lightHover duration-300 hover:shadow-dark dark:hover:bg-darkHover dark:hover:shadow-light">
-                    <Image width={100} height={100} className="w-10 h-10 object-cover rounded" src="/profile pic.png" alt="gddf" />
+                    <Image width={100} height={100} className="w-10 h-10 object-cover rounded" src="svg/React.svg" alt="gddf" />
                     <h3 className="font-bold">
                         Frontend Development
                     </h3>
                     <p>
-                        Focusing on UI/UX and React
+                        Focusing on UI/UX in ReactJS and NextJS
                     </p>
                     <a href="" className="flex text-sm items-center">
                         Read more <Image width={100} height={100} className="w-5 dark:invert" src="/svg/arrow-up-right-01-stroke-rounded.svg" alt="" />
@@ -50,12 +50,12 @@ const Services = () => {
                 <motion.div
                     whileHover={{ scale: 1.05 }}
                     className="grid border border-slate-700 rounded-lg p-4 cursor-pointer hover:-translate-y-1 hover:bg-lightHover duration-300 hover:shadow-dark dark:hover:bg-darkHover dark:hover:shadow-light">
-                    <Image width={100} height={100} className="w-10 h-10 object-cover rounded" src="/profile pic.png" alt="gddf" />
+                    <Image width={100} height={100} className="w-10 h-10 object-cover rounded" src="/svg/spring.svg" alt="gddf" />
                     <h3 className="font-bold">
                         Backend Development
                     </h3>
                     <p>
-                        Focusing on APIs and Databases
+                        Focusing on APIs and Databases in NodeJS, Springboot
                     </p>
                     <a href="" className="flex text-sm items-center">
                         Read more <Image width={100} height={100} className="w-5 dark:invert" src="/svg/arrow-up-right-01-stroke-rounded.svg" alt="" />
@@ -64,7 +64,7 @@ const Services = () => {
                 <motion.div
                     whileHover={{ scale: 1.05 }}
                     className="grid border border-slate-700 rounded-lg p-4 cursor-pointer hover:-translate-y-1 hover:bg-lightHover duration-300 hover:shadow-dark dark:hover:bg-darkHover dark:hover:shadow-light">
-                    <Image width={100} height={100} className="w-10 h-10 object-cover rounded" src="/profile pic.png" alt="gddf" />
+                    <Image width={100} height={100} className="w-10 h-10 object-cover rounded dark:invert" src="/svg/Next.js.svg" alt="gddf" />
                     <h3 className="font-bold">
                         Full Stack Development
                     </h3>

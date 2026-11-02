@@ -51,12 +51,12 @@ const About = () => {
                         <div className="grid flex-grow border border-slate-700 rounded-xl p-2 items-center  hover:-translate-y-1 duration-300 hover:shadow-dark hover:bg-lightHover dark:hover:bg-darkHover dark:hover:shadow-light">
                             <img className="w-10 h-10 dark:invert" src="/svg/source-code-stroke-rounded.svg" alt="" />
                             <h3 className="font-medium ">Languages</h3>
-                            <p className="text-sm">HTML, CSS, JS, React Js, Next Js, PostgreSQL</p>
+                            <p className="text-sm">HTML, CSS, JS, Java, PostgreSQL</p>
                         </div>
                         <div className="grid flex-grow border border-slate-700 rounded-xl p-2 items-center  hover:-translate-y-1 duration-300 hover:shadow-dark hover:bg-lightHover dark:hover:bg-darkHover dark:hover:shadow-light">
                             <img className="w-10 h-10 dark:invert" src="/svg/graduation-scroll-stroke-rounded.svg" alt="" />
                             <h3 className="font-medium ">Education</h3>
-                            <p className="text-sm">SYBCS</p>
+                            <p className="text-sm">TYBCS</p>
                         </div>
                         <div className="grid flex-grow border border-slate-700 rounded-xl p-2 items-center  hover:-translate-y-1 duration-300 hover:shadow-dark hover:bg-lightHover dark:hover:bg-darkHover dark:hover:shadow-light">
                             <img className="w-10 h-10 dark:invert" src="/svg/briefcase-regular-full.svg" alt="" />

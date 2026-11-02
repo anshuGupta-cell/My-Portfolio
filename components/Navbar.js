@@ -39,9 +39,6 @@ const Navbar = () => {
         sideMenuRef.current.style.transform = "translateX(11.5rem)"
     }
 
-    console.log(pathName);
-    
-
     return (
         <>
             <div className="fixed z-40 top-0 text-sm w-[100vw] p-2 bg-[#f1f5f578] dark:bg-[#0e0a0a78] backdrop-blur-lg">
