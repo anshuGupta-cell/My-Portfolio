@@ -44,7 +44,7 @@ const Header = () => {
                     initial={{ y: -30, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.6, delay: 1 }}
-                    href="" download className=" px-4 py-2 border rounded-full bg-slate-100 text-slate-700 flex items-center gap-2 border-slate-700  hover:-translate-y-1 duration-300">
+                    href="/resources/Resume - Copy.pdf" download className=" px-4 py-2 border rounded-full bg-slate-100 text-slate-700 flex items-center gap-2 border-slate-700  hover:-translate-y-1 duration-300">
                     My Resume
                     <img className="w-5 h-5" src="/svg/download-01-stroke-rounded.svg" alt="download" />
                 </motion.a>
