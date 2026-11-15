@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Here is a clean, ready-to-use `README.md` tailored specifically to the content, tech stack, and projects featured on your live portfolio website.
 
-## Getting Started
+```markdown
+# Anshu Gupta — Personal Developer Portfolio
 
-First, run the development server:
+A modern, responsive full-stack developer portfolio built with **Next.js**, **React**, and **Tailwind CSS** to showcase my projects, technical skills, and services.
+
+🔗 **Live Demo:** [my-portfolio-ebon-eight-37.vercel.app](https://my-portfolio-ebon-eight-37.vercel.app/)
+
+---
+
+## ✨ Features
+
+- **Responsive Navigation & Smooth Scrolling:** Quick access to *Home*, *About Me*, *Services*, *My Work*, and *Contact Me* across desktop and mobile devices.
+- **Hero Section with Resume Download:** Direct call-to-action to connect or download my latest resume (`PDF`).
+- **About & Tech Stack Overview:** Highlights my educational background (TYBCS), core programming languages, and everyday development tools.
+- **Services Showcase:** Details my capabilities across Frontend, Backend, and Full-Stack Web Development.
+- **Featured Projects Gallery:** Direct live links to deployed applications.
+- **Contact Section & Notifications:** Interactive contact section with toast notifications for user feedback.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/) & [React](https://react.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Core Languages & Databases Represented:** HTML, CSS, JavaScript, Java, Spring Boot, Node.js, PostgreSQL, MongoDB
+- **Deployment:** [Vercel](https://vercel.com/)
+
+---
+
+## 🚀 Featured Projects
+
+| Project | Description | Live Link |
+| :--- | :--- | :--- |
+| **iNoteBook** | Online note-keeping web application | [View Live](https://inotebook-celll.vercel.app/) |
+| **Link Pool** | Centralized platform to manage and organize all links in one place | [View Live](https://link-pool.vercel.app/) |
+| **Solar PV System** | Client web project for a solar PV system | [View Live](https://st-solar-collge-project.vercel.app/) |
+| **E-Commerce UI** | Responsive e-commerce frontend components | [View Live](https://anshugupta-cell.github.io/eCommerce-frontend-components/) |
+| **Puzzle Game** | Interactive browser-based jigsaw puzzle game | [View Live](https://anshugupta-cell.github.io/Puzzle_Jigsaw/) |
+
+---
+
+## 💻 Getting Started
+
+To run a local copy of this portfolio on your machine:
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/anshugupta-cell/](https://github.com/anshugupta-cell/)<your-repo-name>.git
+cd <your-repo-name>
+
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+
+```
+
+### 3. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📬 Contact
 
-## Learn More
+* **Name:** Anshu Gupta
+* **Location:** Sinnar, Nashik, India
+* **Email:** [anshuguptacell@gmail.com](https://www.google.com/search?q=mailto%3Aanshuguptacell%40gmail.com)
+* **GitHub:** [@anshugupta-cell](https://www.google.com/search?q=https://github.com/anshugupta-cell)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+© 2025 Anshu Gupta. All rights reserved.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
 
-## Deploy on Vercel
+### Quick notes before committing:
+* Replace `<your-repo-name>` in the clone command with the actual name of your GitHub repository.
+* On your live site, the footer links for **Instagram**, **LinkedIn**, and **Twitter** currently point to `[https://github.com](https://github.com)`—you may want to update those `href` values in your footer component as well.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<FollowUp label="Want me to add project screenshots or GitHub stats badges to this README?" query="Add GitHub stats badges and a section for screenshots to the README file for my portfolio."/>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
