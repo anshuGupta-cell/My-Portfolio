@@ -1,6 +1,3 @@
-Here is a clean, ready-to-use `README.md` tailored specifically to the content, tech stack, and projects featured on your live portfolio website.
-
-```markdown
 # Anshu Gupta — Personal Developer Portfolio
 
 A modern, responsive full-stack developer portfolio built with **Next.js**, **React**, and **Tailwind CSS** to showcase my projects, technical skills, and services.
@@ -49,44 +46,3 @@ To run a local copy of this portfolio on your machine:
 ```bash
 git clone [https://github.com/anshugupta-cell/](https://github.com/anshugupta-cell/)<your-repo-name>.git
 cd <your-repo-name>
-
-```
-
-### 2. Install dependencies
-
-```bash
-npm install
-
-```
-
-### 3. Start the development server
-
-```bash
-npm run dev
-
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
-
----
-
-## 📬 Contact
-
-* **Name:** Anshu Gupta
-* **Location:** Sinnar, Nashik, India
-* **Email:** [anshuguptacell@gmail.com](https://www.google.com/search?q=mailto%3Aanshuguptacell%40gmail.com)
-* **GitHub:** [@anshugupta-cell](https://www.google.com/search?q=https://github.com/anshugupta-cell)
-
----
-
-© 2025 Anshu Gupta. All rights reserved.
-
-```
-
-### Quick notes before committing:
-* Replace `<your-repo-name>` in the clone command with the actual name of your GitHub repository.
-* On your live site, the footer links for **Instagram**, **LinkedIn**, and **Twitter** currently point to `[https://github.com](https://github.com)`—you may want to update those `href` values in your footer component as well.
-
-<FollowUp label="Want me to add project screenshots or GitHub stats badges to this README?" query="Add GitHub stats badges and a section for screenshots to the README file for my portfolio."/>
-
-```
